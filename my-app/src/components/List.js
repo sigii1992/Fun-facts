@@ -1,7 +1,11 @@
 function List() {
   return (
     <div>
-      <ul>
+      <div className="title">
+        <h1>Fun Facts You Probably Never Knew!</h1>
+        <h2>Guaranteed to Totally Blow Your Mind</h2>
+      </div>
+      <ul className="list">
         <li>Octopuses have three hearts.</li>
         <li>Polar bears have black skin. And actually, their fur is not white—it is see-through, so it appears white as it reflects light.</li>
         <li>Tigers skin is actually striped, just like their fur. Also, no two fur patterns are alike.</li>

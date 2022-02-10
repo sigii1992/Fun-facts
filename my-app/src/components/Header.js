@@ -1,12 +1,12 @@
 import logo from '../assets/logo.png';
+import '../styles.css'
 
 function Header() {
   return (
-    <div>
-      <img src={logo} alt="" width="100px" />
-      <h1 className="header">Fun Facts You Probably Never Knew!</h1>
-      <h3>Guaranteed to Totally Blow Your Mind</h3>
-    </div>
+    <nav className="nav-bar">
+      <img className="logo" src={logo} alt="" />
+      <h2>Did You Know?</h2>
+    </nav>
   );
 }
 

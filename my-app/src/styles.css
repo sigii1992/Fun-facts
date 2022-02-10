@@ -1,0 +1,41 @@
+.logo {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #2F4F4F;
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+.nav-bar {
+  font-family: 'Inter', sans-serif;
+  color: #2F4F4F;
+  display: flex;
+  align-items: center;
+  background-color: #F0FFFF;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+.nav-bar > h2 {
+  font-weight: 700;
+}
+
+.list  {
+  font-family: 'Inter', sans-serif;
+  padding-top: 20px;
+  padding-right: 300px;
+  padding-bottom: 30px;
+  padding-left: 400px;
+}
+
+.list > li {
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+}
