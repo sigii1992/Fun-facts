@@ -7,6 +7,7 @@ It is built in order to learn React basics:
 - Custom components
 - Styling (using CSS classes)
 
+P.S. All of the content that is displayed on the page has been hardcoded directly into the components.
 
 ## How to run this app:
 
