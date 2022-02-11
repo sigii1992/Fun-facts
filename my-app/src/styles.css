@@ -3,16 +3,6 @@
   margin-right: 10px;
 }
 
-.title {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  color: #2F4F4F;
-  padding-top: 20px;
-  padding-right: 80px;
-  padding-bottom: 30px;
-  padding-left: 80px;
-}
-
 .nav-bar {
   font-family: 'Inter', sans-serif;
   color: #2F4F4F;
@@ -28,14 +18,27 @@
 }
 
 .list  {
-  font-family: 'Inter', sans-serif;
-  padding-top: 20px;
-  padding-right: 300px;
-  padding-bottom: 30px;
-  padding-left: 400px;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .list > li {
-  padding: 10px;
+  padding-block: 10px;  
+}
+
+main {
+  background-color: #282D35;
+  padding: 57px 27px;
   font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
+
+::marker {
+  font-size: 1.5em;
+  color: #61DAFB;
 }

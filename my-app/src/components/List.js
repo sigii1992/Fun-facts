@@ -1,6 +1,6 @@
 function List() {
   return (
-    <div>
+    <main>
       <div className="title">
         <h1>Fun Facts You Probably Never Knew!</h1>
         <h2>Guaranteed to Totally Blow Your Mind</h2>
@@ -17,7 +17,7 @@ function List() {
         <li>Our modern interpretation of Santa Claus with a red outfit and white beard is due in large part to holiday Coca-Cola ads that began in 1931.</li>
         <li>Buckingham Palace in London, England, has 775 rooms, including 78 bathrooms.</li>
       </ul>
-    </div>
+    </main>
   );
 }
 
